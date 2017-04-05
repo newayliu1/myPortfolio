@@ -29,7 +29,7 @@ hr.light {
 }
 
 a {
-  color: #9c27b0;
+  color: #fff;
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
@@ -53,7 +53,9 @@ h6 {
 p {
   font-size: 17px;
   line-height: 1.7;
+  margin: 0 1.25em 0 1.25em;
   margin-bottom: 20px;
+  text-align: left;
 }
 
 .wide-space {
@@ -375,7 +377,7 @@ textarea {
 .gallery-box {
   display: block;
   position: relative;
-  margin: 0 auto;
+  margin: 0 auto 20px;
   max-width: 650px;
   overflow: hidden;
 }
@@ -523,3 +525,31 @@ img::-moz-selection {
   color: #fff;
   background: 0 0;
 }
+
+.github-icon {
+  bottom: 0;
+  font-size: 4em;
+  position: relative;
+}
+
+.skill-icon {
+  font-size: 75px;
+};
+
+.skill-list-item {
+  text-align: center;
+  margin: 20px;
+}
+
+.img-icon {
+height: 75px;
+width: 75px;
+};
+
+.project-link {
+  width: 200px;
+  margin: 0 auto;
+}
+.picture {
+  border: solid black 1px;
+};
