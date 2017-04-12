@@ -3,6 +3,12 @@ $icon-font-path: '~bootstrap-sass/assets/fonts/bootstrap/';
 @import url(https://fonts.googleapis.com/css?family=Questrial);
 @import url(http://fonts.googleapis.com/css?family=Dancing+Script:700);
 
+$navy: #28395c;
+$yellow: #f1d245;
+$grey: #8f9194;
+$grey-blue: #4f5d79;
+$white: #fff;
+
 body,
 html {
   width: 100%;
@@ -65,6 +71,11 @@ p {
 .icon-lg {
   font-size: 50px;
   line-height: 18px;
+}
+
+.icon-no-height {
+  font-size: 50px;
+  // line-height: 40px;
 }
 
 .bg-primary {
@@ -286,6 +297,10 @@ footer {
     font-size: 80px;
   }
 
+  .icon-no-height {
+    font-size: 80px;
+    // line-height: 18px;
+  }
   header {
     min-height: 100%;
   }
@@ -553,3 +568,44 @@ width: 75px;
 .picture {
   border: solid black 1px;
 };
+// .project-container {
+//   height: 500px;
+//   background-color: #fff;
+// };
+
+.project-holder {
+  background-color: $white;
+  border-radius: 8px 24px;
+  display: inline-block;
+  height: 400px;
+  margin: 16px;
+  overflow-y: scroll;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  vertical-align: middle;
+  width: 300px;
+
+  h3 {
+    color: $navy;
+    font-size: 18px;
+    margin: 0;
+    padding-bottom: 6px;
+    padding-top: 6px;
+  }
+
+  p {
+    color: $navy;
+    font-size: 14px;
+    line-height: 18px;
+    margin: 0;
+    padding-bottom: 4px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 8px;
+  }
+}
